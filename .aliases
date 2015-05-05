@@ -38,11 +38,11 @@ alias 'cd-'='cd -'
 alias cls='history -c && clear'
 
 # MySQL shortcuts
-alias mysql='/opt/local/share/mysql5/mysql/mysql'
-alias mysqlstart='sudo /opt/local/share/mysql5/mysql/mysql.server start'
-alias mysqlstop='/opt/local/bin/mysqladmin5 -u root -p shutdown'  
-alias mysqlrestart='/opt/local/share/mysql5/mysql/mysql.server restart'
-alias mysqlreload='/opt/local/share/mysql5/mysql/mysql.server reload'
+# alias mysql='echo Running alias mysql && /opt/local/share/mysql5/mysql/mysql'
+alias mysqlstart='echo Running alias mysqlstart && sudo mysql.server start'
+alias mysqlstop='echo Running alias mysqlstop && mysqladmin5 -u root -p shutdown'  
+alias mysqlrestart='echo Running alias mysqlrestart && mysql.server restart'
+alias mysqlreload='echo Running alias mysqlreload && mysql.server reload'
 
 # Apache shortcuts
 alias apachestart='sudo /opt/local/apache2/bin/httpd -k start'
